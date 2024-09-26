@@ -1,0 +1,17 @@
+<div class="banner">
+    <div class="collage">
+      <div class="collage-item" *ngFor="let image of images">
+        <img [src]="image" alt="Collage Image">
+      </div>
+    </div>
+    <div class="content">
+      <div class="counter">
+        <h1>{{ count }}</h1>
+      </div>
+      <div class="text">
+        <h2>Personas que confían en nosotros</h2>
+        <button (click)="goToLearnMore()">Sepa más</button>
+      </div>
+    </div>
+  </div>
+  

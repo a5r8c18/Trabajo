@@ -1,0 +1,107 @@
+/* Footer */
+footer {
+  background-color: #343a40; /* Color de fondo oscuro */
+  color: #adb5bd; /* Color del texto */
+}
+
+footer a {
+  color: #adb5bd; /* Color de los enlaces */
+}
+
+footer a:hover {
+  color: #ffffff; /* Color de los enlaces al pasar el mouse */
+}
+
+footer .social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+footer .social-icons a {
+  color: #adb5bd; /* Color de los íconos sociales */
+  transition: color 0.3s; /* Transición suave para los íconos */
+}
+
+footer .social-icons a:hover {
+  color: #ffffff; /* Color de los íconos sociales al pasar el mouse */
+}
+
+footer .text-uppercase {
+  font-weight: bold; /* Texto en mayúsculas y negrita */
+  padding-left: 10px;
+  font-size: 24px;
+}
+
+footer .text-reset {
+  color: #adb5bd; /* Restaurar color de texto */
+}
+
+footer .text-reset:hover {
+  color: #ffffff; /* Color del texto al pasar el mouse */
+}
+
+footer .container {
+  max-width: 1200px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centrar el contenedor horizontalmente */
+  padding: 40px 20px; /* Espaciado interno */
+}
+
+footer .me-5 {
+  margin-right: 3rem !important; /* Espaciado derecho */
+}
+
+footer .me-4 {
+  margin-right: 1.5rem !important; /* Espaciado derecho */
+}
+
+footer .p-4 {
+  padding: 1.5rem !important; /* Espaciado interno */
+}
+
+footer .border-bottom {
+  border-bottom: 1px solid #adb5bd !important; /* Borde inferior */
+}
+
+/* Text alignment for contact section */
+.text-md-right {
+  text-align: right;
+  width:600%;
+  margin-top:-20%;
+}
+
+footer .fab {
+  font-size: 1.5rem; /* Tamaño de los íconos */
+}
+
+footer .fas {
+  font-size: 1.4rem; /* Tamaño de los íconos */
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* Class to justify text */
+.justificado {
+  text-align: justify;
+  width: 70%;
+}
+
+/* Specific styles for Products and Useful Links */
+.products {
+  text-align: left;
+  width:400%; /* Ajusta el ancho según sea necesario */
+}
+.useful-links {
+  text-align: justify;
+  width: 800%; /* Ajusta el ancho según sea necesario */
+}

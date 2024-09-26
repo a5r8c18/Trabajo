@@ -1,0 +1,58 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .collage {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    
+  }
+  
+  .collage-item {
+    flex: 1 0 21%; /* Aproximadamente 5 imágenes por fila */
+    margin: 5px;
+   
+  }
+  
+  .collage-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    
+  }
+  
+  .content {
+    text-align: center;
+    width: 50%;
+  }
+  
+  .counter h1 {
+    font-size: 72px;
+    margin: 0;
+  }
+  
+  .text h2 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .text button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .text button:hover {
+    background-color: #0056b3;
+  }
+  

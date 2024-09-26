@@ -1,0 +1,85 @@
+<div class="banner">
+  <div class="text-section">
+    <h2>
+      Nuestro <br />
+      equipo
+    </h2>
+    <button (click)="goToTeam()">Ver el equipo</button>
+  </div>
+  <!-- Carousel -->
+  <div
+    id="demo"
+    class="carousel slide carousel-section"
+    data-bs-ride="carousel"
+  >
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide-to="0"
+        class="active"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide-to="1"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide-to="2"
+      ></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div
+        ngbSlide
+        *ngFor="let member of teamMembers; let isFirst = first"
+        [class.active]="isFirst"
+        class="carousel-item"
+      >
+        <img
+          src="{{ member.image }}"
+          alt="{{ member.name }}"
+          class="d-block"
+          style="width: 100%"
+        />
+        <div class="carousel-caption">
+          <h3>{{ member.name }}</h3>
+          <p>{{ member.role }}</p>
+          <div class="social-icons">
+            <a [href]="member.facebook" target="_blank"
+              ><fa-icon [icon]="faFacebook"></fa-icon
+            ></a>
+            <a [href]="member.instagram" target="_blank"
+              ><fa-icon [icon]="faInstagram"></fa-icon
+            ></a>
+            <a [href]="member.twitter" target="_blank"
+              ><fa-icon [icon]="faTwitter"></fa-icon
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#demo"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#demo"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</div>

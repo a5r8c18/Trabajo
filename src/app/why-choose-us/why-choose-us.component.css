@@ -1,0 +1,59 @@
+/* Estilo para el contenedor del banner */
+.banner {
+    background-image: url('/assets/equipo.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover;                    /* La imagen cubre todo el contenedor */
+    background-position: center;               /* Centra la imagen de fondo */
+    padding: 60px 20px;                        /* Espaciado interno del banner */
+    color: white;  
+    display: flex;                            /* Color del texto */
+    
+  }
+  
+  /* Estilo para el contenido del banner */
+  .content {
+    max-width: 800px;                          /* Máximo ancho del contenido */
+    margin: 0 auto;                            /* Centrar contenido horizontalmente */
+    text-align: left;                          /* Alineación del texto a la izquierda */
+  }
+  
+  /* Estilo para el título del banner */
+  .content h2 {
+    text-align: center;                        /* Centrar el título horizontalmente */
+    font-size: 48px;                           /* Tamaño de fuente del título */
+    margin-bottom: 40px;                       /* Espaciado inferior del título */
+    color: white;                              /* Color del título */
+  }
+  
+  /* Estilo para cada característica (ítem) del banner */
+  .feature {
+    display: flex;                             /* Usar flexbox para la disposición */
+    align-items: center;                       /* Alinear ítems en el centro vertical */
+    margin-bottom: 40px;                       /* Espaciado inferior entre ítems */
+  }
+  
+  /* Estilo para el texto de cada característica */
+  .feature-text {
+    flex: 1;                                   /* El texto ocupa todo el espacio disponible */
+  }
+  
+  /* Estilo para los encabezados de cada característica */
+  .feature h3 {
+    font-size: 28px;                           /* Tamaño de fuente de los encabezados */
+    margin: 0;                                 /* Sin márgenes adicionales */
+    color: green;
+  }
+  
+  /* Estilo para los párrafos de cada característica */
+  .feature p {
+    font-size: 16px;                           /* Tamaño de fuente de los párrafos */
+    margin: 0;                                 /* Sin márgenes adicionales */
+    color: white;
+  }
+  
+  /* Estilo para los íconos de cada característica */
+  .feature-icon {
+    font-size: 48px;                           /* Tamaño de los íconos */
+    margin-left: 20px;                         /* Espaciado izquierdo entre el texto y el ícono */
+    color: green;                              /* Color de los íconos */
+  }
+  

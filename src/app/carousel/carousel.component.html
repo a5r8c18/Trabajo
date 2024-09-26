@@ -1,0 +1,10 @@
+<div class="carousel-container">
+    <h2>Nuestra Metodología</h2>
+    <div class="carousel">
+      <div class="carousel-item" *ngFor="let item of carouselItems">
+        <img [src]="item.image" class="carousel-image" alt="Metodología">
+        <a [routerLink]="item.link" class="carousel-text">{{ item.text }}</a>
+      </div>
+    </div>
+  </div>
+  
